@@ -1,7 +1,4 @@
-Name: Bar Doitch
-ID : 208241539
-======================================
-EX4 - Chat Server
+Chat Server
 
 This program implement a simple chat server using TCP protocol.
 The server can talk with many clients, each on a different socket. 
