@@ -1,0 +1,24 @@
+Name: Bar Doitch
+ID : 208241539
+======================================
+EX4 - Chat Server
+
+This program implement a simple chat server using TCP protocol.
+The server can talk with many clients, each on a different socket. 
+
+*So how it's work?(client view)
+A client sends a connection request to port and the socket server listening to that port accepts it.
+After the server accepts a client request, a connection is established and this client can send chat messages to all the other clients whose connected.
+All the other clients whose connected accept this message and can know who sent it by the guest id.
+
+*(server view)
+The server waits for clients’ request. Once the server reads a message from the client, it reads it till a new line appears.
+The server gets a message from the client and send it to all clients except the one who sends it.
+
+Program Files:
+chatserver.c
+README.txt
+
+GOOD LUCK!
+
+
